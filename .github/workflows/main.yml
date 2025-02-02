@@ -1,4 +1,3 @@
-main.yml
 name: Test Action
 
 on:
@@ -13,5 +12,5 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: xxfxxxxxx@ds.study.iitm.ac.in
+      - name: Print Hello World
         run: echo "Hello, world!"
